@@ -6,7 +6,7 @@ export const Filter = ({filter, handleChangeFilter}) => {
     return (
         <label>
             <span>Find contacts by name</span>
-            <input type="text" value={filter} onChange={handleChangeFilter} className={css.filter}></input>
+            <input type="text" value={filter} onChange={handleChangeFilter} className={css.filter} />
         </label>
     )
 }
